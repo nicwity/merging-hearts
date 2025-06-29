@@ -1,0 +1,12 @@
+# Exported from Render on 2025-06-29T17:13:24Z
+services:
+- type: web
+  name: merging-hearts
+  runtime: node
+  repo: https://github.com/nicwity/merging-hearts
+  plan: starter
+  region: virginia
+  buildCommand: npm install
+  startCommand: node echoRelay.js
+  autoDeployTrigger: commit
+version: "1"
