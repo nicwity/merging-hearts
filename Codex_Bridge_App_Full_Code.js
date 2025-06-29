@@ -1,3 +1,0 @@
-
-// Codex Bridge App - Full Code (React/Next.js)
-... [TRUNCATED TO SAVE SPACE IN DEMO] ...
